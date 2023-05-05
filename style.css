@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root {
+    --fonte-01:'Bruno Ace', cursive;
+    --fonte-02:'Iceland', cursive;
+    --fonte-04: 'Oxanium', cursive;
+    --fonte-05:'Play', sans-serif;
+    --cor-00:white;
+    --cor-01: rgb(10, 4, 90);
+    --cor-02:rgb(255, 72, 0);
+    --cor-03:rgba(255, 72, 0, 0.308);
+    --cor-04:rgba(216, 216, 216, 0.363);
+
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-color: rgba(206, 202, 202, 0.24);
+
+}
+
+
+nav{
+    position: fixed;
+    width: 100vw;
+    height: 25px;
+    background-color: var(--cor-01);
+    margin: -1px auto 0px auto;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    letter-spacing: 50px;
+
+}
+
+
+nav a#botao-tema img{
+    border-radius: 50%;
+    width: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.842);
+    
+}
+
+
+nav a img {
+    width: 25px;
+}
+
+
+
+header {
+    background-color: var(--cor-00);
+    width: 100vw;
+    height: 190px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.212);
+
+}
+
+header div#container {
+    display: inline-flex; 
+    content: center;
+    margin: 30px auto;
+}
+
+header div#box-logo {
+    width: 100px;
+    background:url('imagens/logo.png') center center no-repeat;
+    background-size: 100px;
+    margin-top: 16px;
+  }
+
+
+  header div#box-nome{   
+    padding: 5px;
+    margin: 30px auto;
+    font-family: var(--fonte-02);
+    font-size: 16px;  
+    letter-spacing: 3px;
+    color: var(--cor-01);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.212);
+}
+
+
+h1#nome {
+    font-size: 80px;
+    letter-spacing: 6.5px;
+}
+
+
+
+img{
+    width: 25px;
+}
+
+
+
+/*apresentou rolagem por conta da altura do main*/
+main {
+    background-color:rgba(255, 255, 255, 0.445);
+    max-width: 700px;
+    height: 800vh;
+    margin: 5px auto 60px auto;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.37);
+    border-radius: 5px 5px 15px 15px; 
+   
+}
+
+main p{
+    font-family: var(--fonte-04);
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    padding: 10px 20px 10px 20px;
+}
+
+main p#inicio {
+    padding: 20px;
+}
+
+section#fundo-lampadas {
+    max-width:700px; 
+    height: 400px;
+    margin: auto;  
+
+    background: url('imagens/fundo-lambadas-acesas.jpg' )center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#fundo-lampadas p{
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 165px;    
+    color:var(--cor-00);
+    font-size: 19px;
+    font-weight: bold;
+    text-shadow: 1px 3px 2px black;
+    padding: 38px 20px 37px 20px;
+}
+
+
+section#servicos h2 {
+    font-family: var(--fonte-04);
+    font-size: 20px;
+    margin: 80px 20px 60px 20px;
+    color: var(--cor-01);
+    text-align: center;
+
+}
+
+section#servicos h3 {
+    font-family: var(--fonte-04);
+    font-size: 18px;
+    margin:50px 20px 10px 20px;
+    color: rgb(17, 0, 255);
+    text-align: center;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.281);
+
+}
+
+section#servicos img {
+width: 390px;
+margin: auto;
+display: block;
+border-radius: 5px;
+}
+
+aside.curiosidade{
+    background-image: linear-gradient(to left, rgb(77, 3, 95),rgba(2, 16, 146, 0.877));
+    color: var(--cor-00);
+    padding-bottom: 10px;
+}
+
+aside.curiosidade p{
+    text-align: center;
+
+}
+
+div#dispositivos{
+    display: flex;
+    content: justify;
+    max-width: 500px;
+    height: 190px;
+    margin: auto;
+    background-color: rgba(81, 92, 243, 0.089);
+    padding: 20px;
+    border-radius: 40px 5px 40px 5px;
+}
+
+div#idr{
+    background: url('imagens/idr.jpg') center center no-repeat;
+    background-size: contain;
+    width: 190px;
+    height: 190px;
+    border-radius: 10%;
+    margin: auto;
+    border: 1px solid blue;
+
+}
+
+div#dps{
+    background: url('imagens/dps.jpg') center center no-repeat;
+    background-size: contain;
+    width: 190px;
+    height: 190px;
+    border-radius: 10%;
+    margin: auto;
+    border: 1px solid blue;
+
+}
+
+
+
+footer{
+    height: 80px;
+    background-color:var(--cor-01);
+    margin: auto;
+
+    font-family: var(--fonte-04);
+    color: var(--cor-00);
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+hr{
+    width: 50px;
+    margin: 5px auto;
+}
+
+footer p#desenvolvedor {
+    color: var(--cor-00);
+    font-family:var(--fonte-05);
+   
+
+}
+
+footer p#desenvolvedor a {
+    text-decoration: none;
+    color: var(--cor-00);
+}
+
+
+
+
+
+
