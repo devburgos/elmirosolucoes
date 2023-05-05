@@ -35,7 +35,7 @@
 html, body{
     margin: 0px;
     padding: 0px;
-    height: 100vh;
+    height: 760vh;
     width: 100vw;
 }
 
@@ -119,14 +119,11 @@ img{
     width: 25px;
 }
 
-
-
-/*apresentou rolagem por conta da altura do main*/
 main {
     background-color:rgba(255, 255, 255, 0.445);
     max-width: 700px;
-    height: 800vh;
-    margin: 5px auto 60px auto;
+    height: 700vh;
+    margin: 5px auto 200px auto;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.37);
     border-radius: 5px 5px 15px 15px; 
    
@@ -239,6 +236,7 @@ div#dps{
 
 footer{
     height: 80px;
+    bottom: 0;   
     background-color:var(--cor-01);
     margin: auto;
 
