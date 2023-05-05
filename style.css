@@ -35,7 +35,7 @@
 html, body{
     margin: 0px;
     padding: 0px;
-    height: 760vh;
+    height: 2000px;
     width: 100vw;
 }
 
@@ -122,7 +122,7 @@ img{
 main {
     background-color:rgba(255, 255, 255, 0.445);
     max-width: 700px;
-    height: 700vh;
+    height: 900vh;
     margin: 5px auto 200px auto;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.37);
     border-radius: 5px 5px 15px 15px; 
