@@ -264,7 +264,7 @@ footer p#desenvolvedor {
 
 }
 
-footer p#desenvolvedor a {
+footer a {
     text-decoration: none;
     color: var(--cor-00);
 }
