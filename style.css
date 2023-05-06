@@ -25,10 +25,10 @@
     --fonte-04: 'Oxanium', cursive;
     --fonte-05:'Play', sans-serif;
     --cor-00:white;
-    --cor-01: rgb(10, 4, 90);
-    --cor-02:rgb(255, 72, 0);
-    --cor-03:rgba(255, 72, 0, 0.308);
-    --cor-04:rgba(216, 216, 216, 0.363);
+    --cor-01: rgb(255, 38, 0);   
+    --cor-02:rgb(255, 0, 43);
+    --cor-03:rgba(248, 190, 172, 0.363);
+    --cor-04:rgb(0, 1, 46);
 
 }
 
@@ -40,7 +40,7 @@ html, body{
 }
 
 body{
-    background-color: rgba(206, 202, 202, 0.24);
+    background-color: var(--cor-03);
 
 }
 
@@ -120,7 +120,7 @@ img{
 }
 
 main {
-    background-color:rgba(255, 255, 255, 0.445);
+    background-color:rgba(255, 255, 255, 0.664);
     max-width: 700px;
     max-height: 6500px;
     margin: 5px auto 200px auto;
@@ -175,7 +175,7 @@ section#servicos h3 {
     font-family: var(--fonte-04);
     font-size: 18px;
     margin:50px 20px 10px 20px;
-    color: rgb(17, 0, 255);
+    color: var(--cor-02);
     text-align: center;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.281);
 
@@ -242,7 +242,7 @@ aside#material{
 footer{
     height: 80px;
     bottom: 0;   
-    background-color:var(--cor-01);
+    background-color:var(--cor-04);
     margin: auto;
 
     font-family: var(--fonte-04);
